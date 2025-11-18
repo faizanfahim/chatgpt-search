@@ -1,0 +1,13 @@
+// manifest.json
+{
+  "manifest_version": 3,
+  "name": "Search ChatGPT",
+  "version": "1.0",
+  "description": "Search selected text on ChatGPT",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
